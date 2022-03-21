@@ -1,5 +1,6 @@
 package square;
 
+import exception.BadSquareException;
 import line.Line;
 import point.Point;
 import valid.ValidSquare;
@@ -18,7 +19,7 @@ public class Square {
         color = Color.BLACK;
     }
 
-    public Square(Sides sides) {
+    public Square(Sides sides) throws BadSquareException {
         if (ValidSquare.isValidSquare(sides)) {
             this.sides = sides;
             color = Color.BLACK;
@@ -26,7 +27,7 @@ public class Square {
         else throw new BadSquareException("Square sides are incorrect!");
     }
 
-    public Square(Sides sides, Color color) {
+    public Square(Sides sides, Color color) throws BadSquareException {
         this(sides);
         this.color = color;
     }
