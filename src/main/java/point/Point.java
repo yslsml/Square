@@ -49,7 +49,7 @@ public class Point {
     }
 
     @Override
-    protected Point clone() throws CloneNotSupportedException {
+    public Point clone() throws CloneNotSupportedException {
         return (Point)super.clone();
     }
 
