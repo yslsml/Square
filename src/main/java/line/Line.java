@@ -49,8 +49,8 @@ public class Line {
         Line copy = null;
         try {
             copy = (Line)super.clone();
-            copy.p1 = (Point) p1.clone();
-            copy.p2 = (Point) p2.clone();
+            copy.p1 = p1.clone();
+            copy.p2 = p2.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
