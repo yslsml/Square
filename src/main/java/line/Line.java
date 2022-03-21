@@ -45,7 +45,7 @@ public class Line {
     }
 
     @Override
-    protected Line clone() throws CloneNotSupportedException {
+    public Line clone() throws CloneNotSupportedException {
         Line copy = null;
         try {
             copy = (Line)super.clone();
@@ -70,7 +70,16 @@ public class Line {
                 "\n}";
     }
 
-    public double getLength() {
+    public double length() {
         return sqrt(pow(p2.getX() - p1.getX(), 2) + pow(p2.getY() - p1.getY(), 2));
+    }
+
+    public boolean isPerpendicular(Line l) {
+        double x1 = this.p2.getX() - this.p1.getX();
+        double y1 = this.p2.getY() - this.p1.getY();
+        double x2 = l.p2.getX() - l.p1.getX();
+        double y2 = l.p2.getY() - l.p1.getY();
+
+        return (x1*x2 + y1*y2) == 0;
     }
 }
