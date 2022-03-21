@@ -20,11 +20,8 @@ public class Square {
     }
 
     public Square(Sides sides) throws BadSquareException {
-        if (ValidSquare.isValidSquare(sides)) {
-            this.sides = sides;
-            color = Color.BLACK;
-        }
-        else throw new BadSquareException("Square sides are incorrect!");
+        setSides(sides);
+        color = Color.BLACK;
     }
 
     public Square(Sides sides, Color color) throws BadSquareException {
@@ -40,8 +37,11 @@ public class Square {
         return color;
     }
 
-    public void setSides(Sides sides) {
-        this.sides = sides;
+    public void setSides(Sides sides) throws BadSquareException {
+        if (ValidSquare.isValidSquare(sides)) {
+            this.sides = sides;
+        }
+        else throw new BadSquareException("Square sides are incorrect!");
     }
 
     public void setColor(Color color) {
