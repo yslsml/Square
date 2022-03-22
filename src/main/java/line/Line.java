@@ -46,14 +46,10 @@ public class Line {
 
     @Override
     public Line clone() throws CloneNotSupportedException {
-        Line copy = null;
-        try {
-            copy = (Line)super.clone();
-            copy.p1 = p1.clone();
-            copy.p2 = p2.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
+        Line copy;
+        copy = (Line)super.clone();
+        copy.p1 = p1.clone();
+        copy.p2 = p2.clone();
         return copy;
     }
 
