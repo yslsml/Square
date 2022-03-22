@@ -70,16 +70,12 @@ public class Sides {
 
     @Override
     protected Sides clone() throws CloneNotSupportedException {
-        Sides copy = null;
-        try {
-            copy = (Sides) super.clone();
-            copy.a = (Line) a.clone();
-            copy.b = (Line) b.clone();
-            copy.c = (Line) c.clone();
-            copy.d = (Line) d.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
+        Sides copy;
+        copy = (Sides) super.clone();
+        copy.a = a.clone();
+        copy.b = b.clone();
+        copy.c = c.clone();
+        copy.d = d.clone();
         return copy;
     }
 
