@@ -37,6 +37,7 @@ public class Square {
         Line d = new Line(p4, p1);
         Sides sides = new Sides(a,b,c,d);
         setSides(sides);
+        color = Color.BLACK;
     }
 
     public Sides getSides() {
@@ -62,7 +63,7 @@ public class Square {
         Point A = this.sides.getA().getP1();  // top left fixed point
         Point B = new Point(A.getX() + size, A.getY());  // top right point
         Point C = new Point(B.getX(), A.getY() - size);  //bottom right point
-        Point D = new Point(A.getX(), A.getY() - size);
+        Point D = new Point(A.getX(), C.getY());
 
         this.sides.setA(new Line(A, B));
         this.sides.setB(new Line(B, C));
