@@ -1,6 +1,4 @@
-package line;
-
-import point.Point;
+package square.entity;
 
 import java.util.Objects;
 import static java.lang.Math.sqrt;

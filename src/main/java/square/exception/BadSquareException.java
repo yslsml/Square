@@ -1,4 +1,4 @@
-package exception;
+package square.exception;
 
 public class BadSquareException extends Exception{
     public BadSquareException() {

@@ -1,4 +1,4 @@
-package square;
+package square.entity;
 
 public enum Color {
     BLACK,

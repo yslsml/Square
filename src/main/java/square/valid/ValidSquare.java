@@ -1,7 +1,7 @@
-package valid;
+package square.valid;
 
 
-import square.Sides;
+import square.entity.Sides;
 
 public class ValidSquare {
 

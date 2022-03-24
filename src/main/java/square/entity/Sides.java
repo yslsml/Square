@@ -1,7 +1,4 @@
-package square;
-
-import line.Line;
-import point.Point;
+package square.entity;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package point;
+package square.entity;
 
 import java.util.Locale;
 import java.util.Objects;

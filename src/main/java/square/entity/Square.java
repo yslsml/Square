@@ -1,9 +1,8 @@
-package square;
+package square.entity;
 
-import exception.BadSquareException;
-import line.Line;
-import point.Point;
-import valid.ValidSquare;
+import square.exception.BadSquareException;
+import square.valid.ValidSquare;
+
 import static java.lang.Math.cos;
 import static java.lang.Math.sin;
 import static java.lang.Math.PI;
