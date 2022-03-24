@@ -58,10 +58,10 @@ public class Line {
 
     @Override
     public String toString() {
-        return "\nLine {" +
-                "\np1= " + p1 +
-                "\np2= " + p2 +
-                "\n}";
+        return "\n Line {" +
+                "\n p1 = " + p1.toString() +
+                "\n p2 = " + p2.toString() +
+                "\n }";
     }
 
     public double length() {

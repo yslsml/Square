@@ -80,4 +80,14 @@ public class Sides {
     public int hashCode() {
         return Objects.hash(getA(), getB(), getC(), getD());
     }
+
+    @Override
+    public String toString() {
+        return "\n{" +
+                "\n a = " + a.toString() +
+                "\n b = " + b.toString() +
+                "\n c = " + c.toString() +
+                "\n d = " + d.toString() +
+                "\n}";
+    }
 }

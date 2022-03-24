@@ -6,7 +6,6 @@ import java.util.Objects;
 public class Point {
     private double x;
     private double y;
-    private String name;
 
     public Point() {
         this.x = 0;
@@ -32,20 +31,12 @@ public class Point {
         return y;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public void setX(double x) {
         this.x = x;
     }
 
     public void setY(double y) {
         this.y = y;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     @Override
@@ -68,9 +59,9 @@ public class Point {
 
     @Override
     public String toString() {
-        return name.toUpperCase(Locale.ROOT) + "(" +
-                " x= " + x +
-                ", y= " + y +
+        return  "(" +
+                " x= " +  String.format("%.2f", x) +
+                ", y= " + String.format("%.2f", y) +
                 " )";
     }
 }
