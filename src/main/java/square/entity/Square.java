@@ -30,6 +30,15 @@ public class Square {
         this.color = color;
     }
 
+    public Square(Point p1, Point p2, Point p3, Point p4) throws BadSquareException {
+        Line a = new Line(p1, p2);
+        Line b = new Line(p2, p3);
+        Line c = new Line(p3, p4);
+        Line d = new Line(p4, p1);
+        Sides sides = new Sides(a,b,c,d);
+        setSides(sides);
+    }
+
     public Sides getSides() {
         return sides;
     }
@@ -127,9 +136,9 @@ public class Square {
 
     @Override
     public String toString() {
-        return "Square {" +
-                "sides=" + sides +
-                ", color=" + color +
-                '}';
+        return "\nSquare {" +
+                "\nSides: " + sides.toString() +
+                "\nColor: " + color +
+                "\n}";
     }
 }
