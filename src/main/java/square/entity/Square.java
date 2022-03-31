@@ -11,7 +11,7 @@ import java.util.Objects;
 
 //Методы: задание размеров, растяжение, сжатие, поворот, изменение цвета
 
-public class Square {
+public class Square implements Cloneable {
     private Sides sides;
     private Color color;
 
@@ -62,13 +62,33 @@ public class Square {
     public void setSize(double size) {
         Point A = this.sides.getA().getP1();  // top left fixed point
         Point B = new Point(A.getX() + size, A.getY());  // top right point
-        Point C = new Point(B.getX(), A.getY() - size);  //bottom right point
-        Point D = new Point(A.getX(), C.getY());
+        Point C = new Point(B.getX(), A.getY() - size);  // bottom right point
+        Point D = new Point(A.getX(), C.getY());  // bottom left point
 
         this.sides.setA(new Line(A, B));
         this.sides.setB(new Line(B, C));
         this.sides.setC(new Line(C, D));
         this.sides.setD(new Line(D, A));
+    }
+
+    public void setPointA(Point A) {
+        this.sides.getA().setP1(A);
+        this.sides.getD().setP2(A);
+    }
+
+    public void setPointB(Point B) {
+        this.sides.getA().setP2(B);
+        this.sides.getB().setP1(B);
+    }
+
+    public void setPointC(Point C) {
+        this.sides.getC().setP1(C);
+        this.sides.getB().setP2(C);
+    }
+
+    public void setPointD(Point D) {
+        this.sides.getD().setP1(D);
+        this.sides.getC().setP2(D);
     }
 
     public void stretch(double k) {  // stretching or compression
@@ -85,33 +105,39 @@ public class Square {
         // C.x = newB.x -+ |CB|*sin(alfa);
         // C.y = newB.y -+ |CB|*cos(alfa);
 
+        double length = sides.getA().length();
         double newBx, newBy, newCx, newCy, newDx, newDy;
         Point newA = sides.getA().getP1();  // Point A is fixed
 
         if ( alfa % (2 * PI) < PI) {
-            newBx = sides.getA().length() * cos(alfa) + sides.getA().getP1().getX();
-            newBy = sides.getA().length() * sin(alfa) - sides.getA().getP1().getY();
-            newDx = sides.getA().getP1().getX() - sides.getD().length() * sin(alfa);
-            newDy = sides.getA().getP1().getY() - sides.getD().length() * cos(alfa);
-            newCx = newBx - sides.getB().length() * sin(alfa);
-            newCy = newBy - sides.getB().length() * cos(alfa);
+            newBx = length * cos(alfa) + sides.getA().getP1().getX();
+            newBy = length * sin(alfa) - sides.getA().getP1().getY();
+            newDx = sides.getA().getP1().getX() - length * sin(alfa);
+            newDy = sides.getA().getP1().getY() - length * cos(alfa);
+            newCx = newBx - length * sin(alfa);
+            newCy = newBy - length * cos(alfa);
         }
         else {
-            newBx = sides.getA().length() * cos(alfa) - sides.getA().getP1().getX();
-            newBy = sides.getA().length() * sin(alfa) + sides.getA().getP1().getY();
-            newDx = sides.getA().getP1().getX() + sides.getD().length() * sin(alfa);
-            newDy = sides.getA().getP1().getY() + sides.getD().length() * cos(alfa);
-            newCx = newBx + sides.getB().length() * sin(alfa);
-            newCy = newBy + sides.getB().length() * cos(alfa);
+            newBx = length * cos(alfa) - sides.getA().getP1().getX();
+            newBy = length * sin(alfa) + sides.getA().getP1().getY();
+            newDx = sides.getA().getP1().getX() + length * sin(alfa);
+            newDy = sides.getA().getP1().getY() + length * cos(alfa);
+            newCx = newBx + length * sin(alfa);
+            newCy = newBy + length * cos(alfa);
         }
 
-        Line newLineA = new Line(newA, new Point(newBx, newBy));
+        /*Line newLineA = new Line(newA, new Point(newBx, newBy));
         Line newLineB = new Line(new Point(newBx, newBy), new Point(newCx, newCy));
         Line newLineC = new Line(new Point(newCx, newCy), new Point(newDx, newDy));
         Line newLineD = new Line(new Point(newDx, newDy), newA);
 
         Sides newSides = new Sides(newLineA, newLineB, newLineC, newLineD);
-        this.setSides(newSides);
+        this.setSides(newSides);*/
+
+        setPointA(newA);
+        setPointB(new Point(newBx, newBy));
+        setPointC(new Point(newCx,newCy));
+        setPointD(new Point(newDx, newDy));
     }
 
     @Override
