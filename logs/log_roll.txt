@@ -1,0 +1,710 @@
+2022-03-24 12:11:25 [main] INFO 
+            squaretest.valid.ValidSquareTest - Square {sides=square.entity.Sides@3a3e87c1, color=BLACK}
+2022-03-24 12:12:03 [main] INFO 
+            squaretest.valid.ValidSquareTest - Square {sides=square.entity.Sides@3a3e87c1, color=BLACK}
+2022-03-24 12:16:26 [main] INFO 
+            squaretest.valid.ValidSquareTest - Square {sides=
+{
+a=
+Line {
+p1= ( x= 1.0, y= 4.0 )
+p2= ( x= 4.0, y= 4.0 )
+}
+b=
+Line {
+p1= ( x= 4.0, y= 4.0 )
+p2= ( x= 4.0, y= 1.0 )
+}
+c=
+Line {
+p1= ( x= 4.0, y= 1.0 )
+p2= ( x= 1.0, y= 1.0 )
+}
+d=
+Line {
+p1= ( x= 1.0, y= 1.0 )
+p2= ( x= 1.0, y= 4.0 )
+}
+}, color=BLACK}
+2022-03-24 12:18:38 [main] INFO 
+            squaretest.valid.ValidSquareTest - Square {
+Sides=
+{
+ a = 
+Line {
+ p1 = ( x= 1.0, y= 4.0 )
+ p2 = ( x= 4.0, y= 4.0 )
+}
+ b = 
+Line {
+ p1 = ( x= 4.0, y= 4.0 )
+ p2 = ( x= 4.0, y= 1.0 )
+}
+ c = 
+Line {
+ p1 = ( x= 4.0, y= 1.0 )
+ p2 = ( x= 1.0, y= 1.0 )
+}
+ d = 
+Line {
+ p1 = ( x= 1.0, y= 1.0 )
+ p2 = ( x= 1.0, y= 4.0 )
+}
+}
+Color=BLACK
+
+2022-03-24 12:20:06 [main] INFO 
+            squaretest.valid.ValidSquareTest - Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1.0, y= 4.0 )
+ p2 = ( x= 4.0, y= 4.0 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4.0, y= 4.0 )
+ p2 = ( x= 4.0, y= 1.0 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4.0, y= 1.0 )
+ p2 = ( x= 1.0, y= 1.0 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1.0, y= 1.0 )
+ p2 = ( x= 1.0, y= 4.0 )
+ }
+}
+Color: BLACK
+
+2022-03-24 12:20:28 [main] INFO 
+            squaretest.valid.ValidSquareTest -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1.0, y= 4.0 )
+ p2 = ( x= 4.0, y= 4.0 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4.0, y= 4.0 )
+ p2 = ( x= 4.0, y= 1.0 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4.0, y= 1.0 )
+ p2 = ( x= 1.0, y= 1.0 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1.0, y= 1.0 )
+ p2 = ( x= 1.0, y= 4.0 )
+ }
+}
+Color: BLACK
+
+2022-03-24 12:23:02 [main] INFO 
+            squaretest.valid.ValidSquareTest -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+
+2022-03-24 12:23:42 [main] INFO 
+            squaretest.valid.ValidSquareTest -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:32:58 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:33:48 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:33:48 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,14, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,14, y= 4,00 )
+ p2 = ( x= 4,14, y= 0,86 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,14, y= 0,86 )
+ p2 = ( x= 1,00, y= 0,86 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 0,86 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:34:25 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:34:25 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 7,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 7,00, y= 4,00 )
+ p2 = ( x= 7,00, y= -2,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 7,00, y= -2,00 )
+ p2 = ( x= 1,00, y= -2,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= -2,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:35:25 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:35:25 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 7,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 7,00, y= 4,00 )
+ p2 = ( x= 7,00, y= -2,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 7,00, y= -2,00 )
+ p2 = ( x= 1,00, y= -2,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= -2,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:35:25 [main] INFO 
+            square.run.Main - BLUE
+2022-03-25 10:37:48 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:37:48 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 7,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 7,00, y= 4,00 )
+ p2 = ( x= 7,00, y= -2,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 7,00, y= -2,00 )
+ p2 = ( x= 1,00, y= -2,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= -2,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:37:48 [main] INFO 
+            square.run.Main - BLUE
+2022-03-25 10:44:38 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:44:38 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 7,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 7,00, y= 4,00 )
+ p2 = ( x= 7,00, y= -2,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 7,00, y= -2,00 )
+ p2 = ( x= 1,00, y= -2,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= -2,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:44:38 [main] INFO 
+            square.run.Main - BLUE
+2022-03-25 10:44:38 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,20 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 7,00, y= 4,00 )
+ p2 = ( x= 7,00, y= -2,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= -1,20, y= -1,80 )
+ p2 = ( x= -4,20, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= -2,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLUE
+}
+2022-03-25 10:45:18 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:45:18 [main] INFO 
+            square.run.Main - BLUE
+2022-03-25 10:45:18 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 2,50, y= -1,40 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= -0,10, y= -2,90 )
+ p2 = ( x= -1,60, y= 2,50 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLUE
+}
+2022-03-25 10:49:28 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 10:49:28 [main] INFO 
+            square.run.Main - BLUE
+2022-03-25 10:49:28 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 2,50, y= -1,40 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 2,50, y= -1,40 )
+ p2 = ( x= -0,10, y= -2,90 )
+ }
+ c = 
+ Line {
+ p1 = ( x= -0,10, y= -2,90 )
+ p2 = ( x= -1,60, y= 2,50 )
+ }
+ d = 
+ Line {
+ p1 = ( x= -1,60, y= 2,50 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLUE
+}
+2022-03-25 11:13:00 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 4,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 11:13:00 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 7,00, y= 4,00 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 7,00, y= 4,00 )
+ p2 = ( x= 7,00, y= -2,00 )
+ }
+ c = 
+ Line {
+ p1 = ( x= 7,00, y= -2,00 )
+ p2 = ( x= 1,00, y= -2,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= 1,00, y= -2,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLACK
+}
+2022-03-25 11:13:00 [main] INFO 
+            square.run.Main - BLUE
+2022-03-25 11:13:00 [main] INFO 
+            square.run.Main -
+Square {
+Sides: 
+{
+ a = 
+ Line {
+ p1 = ( x= 1,00, y= 4,00 )
+ p2 = ( x= 4,00, y= 1,20 )
+ }
+ b = 
+ Line {
+ p1 = ( x= 4,00, y= 1,20 )
+ p2 = ( x= -1,20, y= -1,80 )
+ }
+ c = 
+ Line {
+ p1 = ( x= -1,20, y= -1,80 )
+ p2 = ( x= -4,20, y= 1,00 )
+ }
+ d = 
+ Line {
+ p1 = ( x= -4,20, y= 1,00 )
+ p2 = ( x= 1,00, y= 4,00 )
+ }
+}
+Color: BLUE
+}
