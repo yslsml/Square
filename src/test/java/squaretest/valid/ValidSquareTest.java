@@ -1,4 +1,4 @@
-package squaretest;
+package squaretest.valid;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -24,8 +24,8 @@ public class ValidSquareTest {
         Sides sides = new Sides(a,b,c,d);
         boolean actual = ValidSquare.isValidSquare(sides);
         boolean expected = true;
-        Square sq = new Square(sides);
-        log.log(Level.INFO, sq);
+        //Square sq = new Square(sides);
+        //log.log(Level.INFO, sq);
         Assert.assertEquals(actual, expected);
     }
 

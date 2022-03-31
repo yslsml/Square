@@ -37,13 +37,4 @@ public class SquareTest {
         Assert.assertEquals(actual, expected);
     }
 
-    /*@Test
-    public void testRotate() throws BadSquareException {
-        Square actual = setUp();
-        actual.rotate(Math.PI/3);
-        Square expected = new Square(new Point(1,4), new Point(2.5, 1.59),
-                          new Point(-0.098, 0.09), new Point(-1.598,2.5));
-        Assert.assertEquals(actual, expected);
-    }*/
-
 }
