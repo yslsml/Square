@@ -2,7 +2,7 @@ package square.entity;
 
 import java.util.Objects;
 
-public class Sides {
+public class Sides implements Cloneable{
     private Line a;  // top side
     private Line b;  // right side
     private Line c;  // bottom side

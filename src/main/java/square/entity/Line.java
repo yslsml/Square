@@ -4,7 +4,7 @@ import java.util.Objects;
 import static java.lang.Math.sqrt;
 import static java.lang.Math.pow;
 
-public class Line {
+public class Line implements Cloneable {
     private Point p1;
     private Point p2;
 
